@@ -9,7 +9,7 @@ Dotter is a plugin that allows you to create XHTML-based, periodical indicators 
 How to Use
 ----------
 
-ScrollSpy can be initialized at any time but is generally initialized at the top of the document during the page's normal load.  Starting or stopping your Dotter instances may occur any time. There are no required arguments -- only options.
+Dotter can be initialized at any time but is generally initialized at the top of the document during the page's normal load.  Starting or stopping your Dotter instances may occur any time. The only required argument is the Dotter container however you may also customize each instance via the options argument.
 
 	#JS
 	/* usage */
