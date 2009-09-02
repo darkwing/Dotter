@@ -11,11 +11,10 @@
 			message: 'Loading',
 			numDots: 3,
 			property: 'text',
-			reset: false/*,
-			onDot,
-			onStart,
-			onStop
-			*/
+			reset: false,
+			onDot: function() {},
+			onStart: function() {},
+			onStop: function() {}
 		},
 	
 		/* initialization */
@@ -63,4 +62,4 @@
 			return this;
 		}
 	});
-});
+})(document.id);
