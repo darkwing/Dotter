@@ -27,10 +27,11 @@ var Dotter = new Class({
 		message: 'Loading',
 		numDots: 3,
 		property: 'text',
-		reset: false,
-		onDot: function() {},
-		onStart: function() {},
-		onStop: function() {}
+		reset: false/*,
+		onDot: $empty,
+		onStart: $empty,
+		onStop: $empty
+		*/
 	},
 
 	/* initialization */
