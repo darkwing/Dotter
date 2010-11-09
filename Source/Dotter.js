@@ -74,7 +74,7 @@ var Dotter = new Class({
 	/* stop the dotter */
 	stop: function() {
 		this.running = this.loaded = false;
-		$clear(this.periodical);
+		clearInterval(this.periodical);
 		this.fireEvent('stop');
 		return this;
 	}
